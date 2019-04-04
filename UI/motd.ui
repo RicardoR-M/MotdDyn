@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>459</width>
-    <height>74</height>
+    <height>147</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -16,7 +16,7 @@
   <widget class="QWidget" name="centralwidget">
    <layout class="QVBoxLayout" name="verticalLayout">
     <item>
-     <widget class="QLabel" name="lblMensaje">
+     <widget class="QLabel" name="lblTitulo">
       <property name="font">
        <font>
         <family>Arial Black</family>
@@ -33,6 +33,33 @@
       </property>
       <property name="alignment">
        <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="lblMensaje">
+      <property name="text">
+       <string>Sr. Juan, usted cuenta con el beneficio de FULL CLARO el cual le brinda hasta el 50% de su velocidad contratada TOTALMENTE GRATIS.</string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="lblTitular">
+      <property name="text">
+       <string>- Si es TITULAR realizar esta pregunta: ¿Lo activamos en su servicio fijo o movil?</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="lblUsuario">
+      <property name="text">
+       <string>- Si es USUARIO recordarle que debe comunicarse el titular del servicio para activar este beneficio!!!</string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
       </property>
      </widget>
     </item>
