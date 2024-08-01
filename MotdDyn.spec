@@ -1,6 +1,6 @@
 # -*- mode: python -*-
 
-block_cipher = pyi_crypto.PyiBlockCipher(key='***REMOVED***')
+block_cipher = pyi_crypto.PyiBlockCipher(key='protected')
 
 
 a = Analysis(['motd.py'],
